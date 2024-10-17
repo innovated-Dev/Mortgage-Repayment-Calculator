@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="assets/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <title>Mortgage Repayment Calculator</title>
+  </head>
+  <body>
+    <div class="parent-div">
+      <div class="center-div">
+        <div class="first-child">
+          <div class="mortgage-calculator">
+            <p class="mortgage-calculator-textOne">Mortgage Calculator</p>
+            <p class="mortgage-calculator-textTwo"><a href="">Clear All</a></p>
+          </div>
+          <div class="mortgage-amount">
+            <label class="mortgage-amount-label" for="">Mortgage Amount</label
+            ><br />
+            <div class="mortgage-amount-inputdiv"></div>
+            <input class="mortgage-amount-input-text" type="text" />
+            <span class="mortgage-amount-div">£</span>
+          </div>
+          <div class="mortgage-term-rate">
+            <div class="mortgage-term">
+              <label for="">Mortgage Term</label><br />
+              <div class="mortgage-term-inputdiv"></div>
+              <input class="mortgage-term-text" type="text" />
+              <span class="mortgage-term-div">years</span>
+            </div>
+            <div class="mortgage-rate">
+              <label for="">Interest Rate</label><br/>
+              <div class="mortgage-rate-inputdiv"></div>
+              <input class="mortgage-rate-text" type="text" />
+              <span class="mortgage-rate-div">%</span>
+            </div>
+          </div>
+
+          <div class="mortgage-type">
+            <label for="">Mortgage Type</label>
+            <div class="repayment-div">
+              <input class="radio-input" type="radio" name="" id="" />
+              <p class="radio-text">Repayment</p>
+            </div>
+            <div class="interestOnly-div">
+              <input class="radio-input" type="radio" name="" id="" />
+              <p class="radio-text">Interest Only</p>
+            </div>
+          </div>
+          <div class="calc-repayemt">
+            <button>Calculate Repayments</button>
+            <img class="calc-icon" src="assets/icon-calculator.svg" alt="" srcset="">
+          </div>
+        </div>
+        <div class="second-child">
+          <img
+            class="calc-img"
+            src="assets/illustration-empty.svg"
+            alt="calculator image"
+          />
+          <div class="text-div">
+            <p class="first-paragraph">Results shown here</p>
+            <p class="second-paragraph">
+              Complete the form and click "calculate repayments" to see what your
+              monthly repayments would be.
+            </p>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/32ca60c222.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
